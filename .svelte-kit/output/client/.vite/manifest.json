@@ -1,0 +1,68 @@
+{
+  ".svelte-kit/generated/client-optimized/app.js": {
+    "dynamicImports": [
+      ".svelte-kit/generated/client-optimized/nodes/0.js",
+      ".svelte-kit/generated/client-optimized/nodes/1.js",
+      ".svelte-kit/generated/client-optimized/nodes/2.js"
+    ],
+    "file": "_app/immutable/entry/app.a783c437.js",
+    "imports": [
+      "_index.11e7d0cf.js"
+    ],
+    "isEntry": true,
+    "src": ".svelte-kit/generated/client-optimized/app.js"
+  },
+  ".svelte-kit/generated/client-optimized/nodes/0.js": {
+    "file": "_app/immutable/nodes/0.4ccac22d.js",
+    "imports": [
+      "_index.11e7d0cf.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": ".svelte-kit/generated/client-optimized/nodes/0.js"
+  },
+  ".svelte-kit/generated/client-optimized/nodes/1.js": {
+    "file": "_app/immutable/nodes/1.9bc0ec12.js",
+    "imports": [
+      "_index.11e7d0cf.js",
+      "_singletons.e16eb260.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": ".svelte-kit/generated/client-optimized/nodes/1.js"
+  },
+  ".svelte-kit/generated/client-optimized/nodes/2.css": {
+    "file": "_app/immutable/assets/2.6c6a0b5c.css",
+    "src": ".svelte-kit/generated/client-optimized/nodes/2.css"
+  },
+  ".svelte-kit/generated/client-optimized/nodes/2.js": {
+    "css": [
+      "_app/immutable/assets/2.6c6a0b5c.css"
+    ],
+    "file": "_app/immutable/nodes/2.2032959f.js",
+    "imports": [
+      "_index.11e7d0cf.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": ".svelte-kit/generated/client-optimized/nodes/2.js"
+  },
+  "_index.11e7d0cf.js": {
+    "file": "_app/immutable/chunks/index.11e7d0cf.js"
+  },
+  "_singletons.e16eb260.js": {
+    "file": "_app/immutable/chunks/singletons.e16eb260.js",
+    "imports": [
+      "_index.11e7d0cf.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
+    "file": "_app/immutable/entry/start.eeeb9e4e.js",
+    "imports": [
+      "_index.11e7d0cf.js",
+      "_singletons.e16eb260.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js"
+  }
+}
