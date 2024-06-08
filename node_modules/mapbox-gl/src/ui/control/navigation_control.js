@@ -3,9 +3,8 @@
 import * as DOM from '../../util/dom.js';
 import {extend, bindAll} from '../../util/util.js';
 import {MouseRotateHandler, MousePitchHandler} from '../handler/mouse.js';
-import window from '../../util/window.js';
 
-import type Map from '../map.js';
+import type {Map} from '../map.js';
 import type Point from '@mapbox/point-geometry';
 
 type Options = {
@@ -50,7 +49,7 @@ class NavigationControl {
     _compassIcon: HTMLElement;
     _handler: ?MouseRotateWrapper;
 
-    constructor(options: Options) {
+    constructor(options?: Options) {
         this.options = extend({}, defaultOptions, options);
 
         this._container = DOM.create('div', 'mapboxgl-ctrl mapboxgl-ctrl-group');

@@ -1,25 +1,7 @@
-import preprocess from 'svelte-preprocess';
-import adapter from '@sveltejs/adapter-static';
+import { vitePreprocess } from '@sveltejs/vite-plugin-svelte'
 
-/** @type {import('@sveltejs/kit').Config} */
-const config = {
-	kit: {
-		adapter: adapter({
-			// default options are shown
-			pages: 'build',
-			assets: 'build',
-			fallback: null,
-			strict: false
-		}),
-		prerender: {
-			entries: ['*'] // Add dynamic routes here
-		},
-		paths: {
-			base: '',
-			assets: ''
-		}
-	},
-	preprocess: preprocess()
-};
-
-export default config;
+export default {
+  // Consult https://svelte.dev/docs#compile-time-svelte-preprocess
+  // for more information about preprocessors
+  preprocess: vitePreprocess(),
+}
